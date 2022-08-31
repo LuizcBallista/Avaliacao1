@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./src/css/styles.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <title>Página Inicial</title>
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand titulo-navbar" href="#">Chapecó Segurança</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <a class="nav-item nav-link active" href="#">Home</a>
+        <a class="nav-item nav-link" href="./pages/empresa.html">Empresa</a>
+        <a class="nav-item nav-link" href="./pages/contato.html">Contato</a>
+        <a class="nav-item nav-link" href="./pages/depoimentos.html">Depoimentos</a>
+        </div>
+    </div>
+    </nav>
+
+    <!-- CARROSSEL -->
+    <div class="container container-principal">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./src/images/dicas-seg-residencial.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./src/images/img2.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./src/images/img3.webp" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <br>
+
+    <!-- CATÁLOGO -->
+    <div class="container">
+      <h2>NOSSOS SERVIÇOS</h2>
+        <div class="card-group">
+            <div class="card cards">
+              <img src="./src/images/catalogo1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sistema integrado</h5>
+                <p class="card-text">Instalação personalizada de um controlador único para a casa inteira.</p>
+                <p class="card-text"><small class="text-muted">Preço sujeito a sofrer alterações de acordo com a necessidade</small></p>
+                <a href="./pages/servico1.html" class="btn btn-primary">Orçamento</a>
+              </div>
+            </div>
+            <div class="card cards">
+              <img src="./src/images/catalogo2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Vigilância externa</h5>
+                <p class="card-text">Instalação de equipamentos para a vigilância externa de forma customizavel.</p>
+                <p class="card-text"><small class="text-muted">Preço sujeito a sofrer alterações de acordo com a necessidade</small></p>
+                <a href="./pages/servico2.html" class="btn btn-primary">Orçamento</a>
+              </div>
+            </div>
+            <div class="card cards">
+              <img src="./src/images/catalogo3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sistema completo de vigilância</h5>
+                <p class="card-text">Instalação de um sistema completo de vigilância contendo as melhores opções do mercado.</p>
+                <p class="card-text"><small class="text-muted">Preço sujeito a sofrer alterações de acordo com a necessidade</small></p>
+                <a href="./pages/servico3.html" class="btn btn-primary">Orçamento</a>
+              </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer bg-dark text-center">
+            <span>Desenvolvido por Luiz Ballista</span>
+        </div>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
